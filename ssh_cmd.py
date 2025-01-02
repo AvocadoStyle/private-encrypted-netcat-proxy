@@ -3,7 +3,7 @@ import paramiko
 
 def ssh_command(ip, port, user, passwd, cmd):
     """
-    Makes the connection to SSH server.
+    Makes the connection to SSH server. Acts as a client.
     The policy of the ssh connection will be with user name & password, We're doing so with the 
         - client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) policy
     Create the SSH connection to the server with the following parameters:
