@@ -1,6 +1,11 @@
 """
 ssh server for sending commands for execution in the client side and get the result output from the
 execution in the client side. Which called reverse shell execution :).
+
+Tested in linux victim & windows victim, Which profes that the python execution will work in any 
+environment which python3.6+ installed & paramiko.
+
+Next stage: remotely execute arbitrary code which enables the rcmd.
 """
 
 import socket
