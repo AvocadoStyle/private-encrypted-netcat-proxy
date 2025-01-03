@@ -25,4 +25,4 @@ def ssh_command(ip, port, user, passwd, command):
     return
 
 
-ssh_command('192.168.10.156', 2345, 'armando', 'root', 'ClientConnected')
+ssh_command(ip='192.168.10.156', port=2345, user='user', passwd='pass', command='ClientConnected')

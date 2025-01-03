@@ -1,3 +1,8 @@
+"""
+ssh server for sending commands for execution in the client side and get the result output from the
+execution in the client side. Which called reverse shell execution :).
+"""
+
 import socket
 import paramiko
 import threading
